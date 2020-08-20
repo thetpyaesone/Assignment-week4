@@ -115,7 +115,6 @@ results <- predict(rf.model,
 results
 ##  [1] B A B A A E D B A A B C B A E E A B B B
 ## Levels: A B C D E
-treeModel <- rpart(classe ~ ., data=train.data.final, method="class")
-fancyRpartPlot(treeModel)
+
 
 
